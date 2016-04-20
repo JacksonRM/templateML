@@ -1,0 +1,14 @@
+This directory contains all the header files for the templateML library as well as additional C++ files that model concepts from templateML.  The main.cpp file uses templateML models and user defined data collectors to do machine learning.  To build the library and run main type the commands:
+
+
+
+make depends
+make
+./main
+
+The output is a summary of all the actions taken in the main file
+
+*LanguageCollector data collector requires that python is installed in /usr/bin  because it runs languageAnalyzer.py  This script analyzes the files in the current directory (this directory) and counts characters to try and determine file type (C++ or not). 
+
+
+All of the code was handwritten by Jackson Marusarz
